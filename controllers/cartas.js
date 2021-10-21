@@ -3,7 +3,7 @@ const path = require('path')
 const Carta = require('../utils/database').models.carta
 
 exports.postAgregarCarta = (req, res)=>{
-    carta.log(req.body)
+    console.log(req.body)
     Carta.create(req.body)
     .then(result=>{
         console.log("Carta creada exitosamente")
