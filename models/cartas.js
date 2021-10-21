@@ -4,7 +4,7 @@ const Carta = (sequelize)=>{
     sequelize.define('carta',{
         id:{
             type:Sequelize.INTEGER,
-            allowNull: false,
+            allowNull:false,
             primaryKey: true
         },
         numeracion:{

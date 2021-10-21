@@ -15,7 +15,6 @@ app.use(express.urlencoded({extended:true}))
 
 app.use("/examen2", (req, res)=>{
   console.log("Pagina con conexion")
-  res.send("Aqui tamos")
 })
 
 app.use("/cartas",vjRoutes);
