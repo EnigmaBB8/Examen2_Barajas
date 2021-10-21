@@ -8,7 +8,7 @@ const Carta = (sequelize)=>{
             primaryKey: true
         },
         numeracion:{
-            type:Sequelize.INTEGER,
+            type:Sequelize.STRING(10),
             allowNull:false
         },
         color:{
